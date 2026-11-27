@@ -6,8 +6,8 @@ Free Life AI Labs builds verifiable multi-runtime agent continuity, cryptographi
 
 ## Open Protocol & Reproduction Repositories
 
-* **[`sacp`](https://github.com/FreeLifeAi/sacp)** (`Apache-2.0`, `v0.1.1`): **Sovereign Agent Capsule Protocol**. Zero-dependency experimental JavaScript baseline (`Node.js >=24.0.0`) for deterministic `RFC 8949` canonical CBOR and strict `IPLD DAG-CBOR` (Tag `42` CIDs, `float64` only), standalone `ISO/IEC 19566-5:2023` `JUMBF` + `COSE_Sign1` `Ed25519` capsules (`experimental_standalone_sacp_jumbf_cose_profile`), multi-process SQLite WAL Compare-And-Swap (`CAS`) causal lineage with signed retention tombstones, `W3C did:key` capability-delegation prototypes (`ucan_jwt_prototype_v0`) with `EIP-712` typed-data digests and `WebAuthn P-256` assertion verification, `cq`-inspired local knowledge-commons adapters, simulated telemetry interlock gates, and a zero-network offline `WebCrypto` browser verifier.
-* **[`field-note-repros`](https://github.com/FreeLifeAi/field-note-repros)** (`Apache-2.0`, `v0.1.1`): Deterministic synthetic reproduction harnesses (`Node.js >=24.0.0`), `2x2` schema-order vs. padding scorers (with optional `LOCAL_LLM_URL` live endpoint runner), `200`-surrogate permutation verifiers, Clopper-Pearson false-alarm bounds, and `tanh` critical-slowing verifiers accompanying our published Research Field Notes.
+* **[`sacp`](https://github.com/FreeLifeAi/sacp)** (`Apache-2.0`, `v0.1.2`): **Sovereign Agent Capsule Protocol**. Zero-dependency experimental JavaScript baseline (`Node.js >=24.0.0`) for deterministic `RFC 8949` canonical CBOR and strict `IPLD DAG-CBOR` (Tag `42` CIDs, `float64` only), standalone `ISO/IEC 19566-5:2023` `JUMBF` + `COSE_Sign1` `Ed25519` capsules (`experimental_standalone_sacp_jumbf_cose_profile`, `RFC 9052` `crit` enforcement), multi-process SQLite WAL Compare-And-Swap (`CAS`) causal lineage with signed retention tombstones, `W3C did:key` capability-delegation prototypes (`ucan_jwt_prototype_v0`) with `EIP-712` typed-data digests, `WebAuthn P-256` assertion verification, and capability-path budget ledgers, `cq`-inspired local knowledge-commons adapters, simulated telemetry interlock gates, and a zero-network offline `WebCrypto` browser verifier (`71/71` assertions).
+* **[`field-note-repros`](https://github.com/FreeLifeAi/field-note-repros)** (`Apache-2.0`, `v0.1.2`): Deterministic synthetic reproduction harnesses (`Node.js >=24.0.0`), matched 3-property `2x2` schema-order vs. padding scorers (with negation-aware constraint scoring and optional `LOCAL_LLM_URL` live endpoint runner), `200`-surrogate permutation verifiers, Clopper-Pearson false-alarm bounds, and `tanh` critical-slowing verifiers accompanying our published Research Field Notes.
 
 ## Research & Empirical Field Notes
 
@@ -20,4 +20,5 @@ Full laboratory notes and machine-readable twins are published at https://freeli
 ## Sovereign Infrastructure & Enquiries
 
 * **Private R&D Enclaves**: https://freelifeai.com/solutions/private-rd-enclaves/
+* **License & Security**: [`LICENSE`](LICENSE) (`Apache-2.0`) | [`SECURITY.md`](SECURITY.md) (`Contact@freelifeai.com`)
 * **Architecture & Partnerships**: `Contact@freelifeai.com`
