@@ -4,9 +4,10 @@ Toronto, Ontario, Canada | https://freelifeai.com | `Contact@freelifeai.com`
 
 Free Life AI Labs builds verifiable multi-runtime agent continuity, cryptographic execution provenance, and zero-training private R&D enclaves on bare-metal and sovereign infrastructure.
 
-## Open Protocol Implementations
+## Open Protocol & Reproduction Repositories
 
 * **[`sacp`](https://github.com/FreeLifeAi/sacp)** (`Apache-2.0`): **Sovereign Agent Capsule Protocol**. Zero-dependency binary causal state, capability delegation, and provenance capsules built on deterministic `RFC 8949` canonical CBOR, `ISO/IEC 19566-5:2023` JUMBF (`C2PA`-compatible extension boxes), `COSE_Sign1` `Ed25519`, atomic Compare-And-Swap (`CAS`) causal DAGs, `W3C did:key` + `UCAN` + `EIP-712` + `WebAuthn P-256` execution receipts, `Mozilla.ai cq` capsule adapters, signed sensor-to-actuator custody chains, and a zero-network offline browser verifier.
+* **[`field-note-repros`](https://github.com/FreeLifeAi/field-note-repros)** (`Apache-2.0`): Deterministic synthetic reproduction harnesses, `2x2` schema-order vs padding scorers, `200`-surrogate permutation verifiers, Clopper-Pearson false-alarm bounds, and `tanh` critical-slowing verifiers accompanying our published Research Field Notes.
 
 ## Research & Empirical Field Notes
 
